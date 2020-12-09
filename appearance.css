@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'apercu';
+  src: url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff2') format('woff2'),
+       url('https://cdn.statically.io/gh/starlord92/mediatate/9faf7eaf/font/apercu/ApercuPro.woff') format('woff');
+  /* font-weight: 10000; */
+  /* font-style: normal; */
+}
+
+html, body {
+  font-family: 'apercu';
+}
+.lead {
+  font-size:1rem;
+}
+.tertiary-background {
+  background-color: rgb(251,155,69);
+}
+.quarternary-background {
+  background-color: rgb(252,202,45);
+}
+.jumbotron {
+  background-color: white;
+}
+
+.value-prop {
+  border-radius: 20px;
+}
