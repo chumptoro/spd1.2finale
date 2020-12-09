@@ -18,10 +18,24 @@ html, body {
 .quarternary-background {
   background-color: rgb(252,202,45);
 }
+.quinary-background {
+  background-color: rgb(251,244,233);
+}
 .jumbotron {
   background-color: white;
 }
 
-.value-prop {
+.benefits, .value-prop {
   border-radius: 20px;
+  display: block;
+}
+.text-color-secondary{
+  color: white;
+}
+
+@media screen and (min-width:878px) {
+  .value-prop {
+    border-radius: 200px;
+  }
+  
 }
