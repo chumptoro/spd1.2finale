@@ -15,6 +15,8 @@ html {
 }
 .section-child {
   margin-bottom: 2.7vh;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 .benefits, .value-prop{
   padding-left: 7vw;
@@ -48,4 +50,8 @@ html {
 .link {
   /* margin-bottom: 10px; */
   color: white;
+}
+
+.in-paragraph {
+  padding: 0px;
 }
